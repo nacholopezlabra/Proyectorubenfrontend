@@ -1,34 +1,88 @@
-body{
+body {
 
   margin: 0;
 }
+aside {
+  position: fixed;
+  top: 80px;
+  z-index: 100;
+  right: 0;
+}
 
 
-.contenedor{
-background-color: white;
+#twitter a {
+  background: #55ace5;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  width: 55px;
+  display: flex;
+}
+
+#twitter a:hover {
+  background: #ffcc00;
+  padding: 10px 10px;
+  transition: all .4s ease;
+}
+
+#instagram a {
+  background: #e95950;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  width: 55px;
+  display: flex;
+}
+
+#instagram a:hover {
+  background: #ffcc00;
+  padding: 10px 10px;
+  transition: all .4s ease;
 
 }
 
-h1{
-font-size: 2rem;
-line-height: 1.3rem;
-}
-ul{
- width: 100%;
-margin: 0 0 0 50px;
-list-style: none;
+#youtube a {
+  background: #bb0000;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  width: 55px;
+  display: flex;
 }
 
-.navegacion{
+#youtube a:hover {
+  background: #ffcc00;
+  padding: 10px 10px;
+  transition: all .5s ease;
+
+}
+
+
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  width: 100%;
+  margin: 0 0 0 50px;
+  list-style: none;
+}
+
+.navegacion {
   width: 100%;
   overflow: auto;
   background-color: black;
 }
-li{
+
+li {
 
   float: left;
 }
-li a{
+
+li a {
   width: 100%;
   display: block;
   padding: 20px 20px;
@@ -37,45 +91,67 @@ li a{
   color: white;
   text-align: center;
 }
-h2{
+
+h2 {
 
   text-align: center;
 }
-section{
-width: 33%;
-float: left;
+
+section {
+  width: 33%;
+  float: left;
 }
 
-Li a:hover{
-background-color: #ffcc00;
-text-transform: uppercase;
+Li a:hover {
+  background-color: #ffcc00;
+  text-transform: uppercase;
 
 }
-.logo img{
+
+img {
   position: absolute;
   margin-top: 5px;
   margin-left: 10px;
 }
-footer{
+
+h3 {
+
+  text-align: center;
+}
+
+
+
+#imagen{
+position: fixed;
+margin-left: 30%;
+margin-top: 10%;
+border: black 5px;
+
+
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+
+}
+
+
+footer {
   background-color: black;
   text-align: center;
   padding: 20px;
   clear: both;
+  margin-top: 43%;
 }
-footer{
-color: white;
-text-decoration: none;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 2rem;
-line-height: 1.3rem;
-}
-h4{
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   line-height: 1.3rem;
-  text-align: center; 
-}
-.uno{
-text-align: center;
-
-  
 }
