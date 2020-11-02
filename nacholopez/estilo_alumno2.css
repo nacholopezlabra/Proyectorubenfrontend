@@ -1,0 +1,63 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+  
+  ul {
+    width: 100%;
+    margin: 0 0 0 50px;
+    list-style: none;
+  }
+  
+nav {
+    width: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  li {
+  
+    float: left;
+  }
+  
+  li a {
+    width: 100%;
+    display: grid;
+    padding: 20px 20px;
+    text-decoration: none;
+    f font-family:"fira sans",sans-serif;
+    color: white;
+    text-align: center;
+  }
+
+  footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+    margin-top: 1%;
+  }
+  
+  footer {
+    color: white;
+    text-decoration: none;
+    font-family:"fira sans",sans-serif;
+    font-size: 2rem;
+    line-height: 1.3rem;
+  }
+  Li a:hover {
+    background-color: #ffcc00;
+    text-transform: uppercase;
+  
+  }
+article{
+
+
+	display:grid;
+	grid-gap: 0.5rem;
+	padding:0.5rem;
+	background-color:LightGray ;
+}
